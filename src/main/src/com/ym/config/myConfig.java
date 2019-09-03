@@ -45,8 +45,8 @@ public class myConfig extends JFinalConfig {
 
         ActiveRecordPlugin arp=new ActiveRecordPlugin(druid);
         arp.setShowSql(true);
-        arp.addMapping("users", Users.class);
         plugins.add(arp);
+        arp.addMapping("users", Users.class);
 
     }
 
